@@ -1,5 +1,5 @@
 {
-  "name": "budget-tracker",
+  "name": "budget-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,22 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crowntj07/Budget-Tracker.git"
+    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/crowntj07/Budget-Tracker/issues"
+    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
-  "homepage": "https://github.com/crowntj07/Budget-Tracker#readme",
+  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "mongoose": "^5.11.7",
-    "morgan": "^1.10.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {}
+    "lite-server": "^2.5.3",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  }
 }
